@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Weekend Challenge</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="vendors/jquery.js" charset="utf-8"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+</head>
+<header>
+    Employee Cost Calculator
+</header>
+
+<body>
+    <h2 id='monCost'></h2>
+    <h3 class='titles'>First Name:</h3>
+    <input type='text' class='firstName titles'>
+    <h3 class='titles'>Last Name:</h3>
+    <input type='text' class='lastName titles'>
+    <h3 class='titles'>Employee Number:</h3>
+    <input type='text' class='eID titles'>
+    <h3 class='titles'>Job Title:</h3>
+    <input type='text' class='jobTitle titles'>
+    <h3 class='titles'>Annual Salary:</h3>
+    <input type='text' class='annSal titles'>
+    <button class='submit but'>Submit</button>
+    <table>
+        <thead class='tHead'>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Employee Number</th>
+                <th>Job Title</th>
+                <th>Annual Salary</th>
+                <th class='thR'>Remove?</th>
+            </tr>
+        </thead>
+        <tbody class='tBody'>
+            <tr>
+                <td>John</td>
+                <td>Smith</td>
+                <td>123456</td>
+                <td>Sample</td>
+                <td>$0</td>
+                <td>
+                    <button class="removeBut">X</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
